@@ -1,4 +1,5 @@
 # FN1032 Functional Annotation
+Functional annotation of hypothetical protein FN1032 using Biopython and BLAST
 
 ## Objective
 To perform functional annotation of the hypothetical protein FN1032 from
@@ -25,5 +26,4 @@ Experimental validation is required to confirm its biological role.
 - Python
 - Biopython
 - NCBI BLAST
-# FN1032_Functional_Annotation
-Functional annotation of hypothetical protein FN1032 using Biopython and BLAST
+
