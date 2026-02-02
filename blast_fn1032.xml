@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_5123681</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>179</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_5123681</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>179</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>ref|WP_005901848.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium nucleatum] &gt;gb|AAL95228.1| Hypothetical protein FN1032 [Fusobacterium nucleatum subsp. nucleatum ATCC 25586] &gt;gb|ALF24430.1| CvpA family protein [Fusobacterium nucleatum subsp. nucleatum ChDC F316] &gt;gb|ALF25489.1| CvpA family protein [Fusobacterium nucleatum subsp. nucleatum] &gt;gb|ASG26302.1| CvpA family protein [Fusobacterium nucleatum subsp. nucleatum] &gt;gb|AVQ15387.1| CvpA family protein [Fusobacterium nucleatum subsp. nucleatum ATCC 25586]</Hit_def>
+  <Hit_accession>WP_005901848</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.887</Hsp_bit-score>
+      <Hsp_score>873</Hsp_score>
+      <Hsp_evalue>2.47441e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>ref|WP_094242526.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|ASS39870.1| CvpA family protein [Fusobacterium sp. oral taxon 203] &gt;gb|WYA08471.1| CvpA family protein [Fusobacterium nucleatum] &gt;gb|WYA36893.1| CvpA family protein [Fusobacterium nucleatum] &gt;gb|WYA52743.1| CvpA family protein [Fusobacterium nucleatum] &gt;gb|WYA66748.1| CvpA family protein [Fusobacterium nucleatum]</Hit_def>
+  <Hit_accession>WP_094242526</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>340.117</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>4.72719e-117</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGVKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSG+KNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|WP_124795181.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium canifelinum] &gt;gb|QQB73174.1| CvpA family protein [Fusobacterium canifelinum] &gt;gb|QQS86687.1| CvpA family protein [Fusobacterium canifelinum] &gt;gb|RRD28350.1| CvpA family protein [Fusobacterium canifelinum] &gt;gb|WXZ84915.1| CvpA family protein [Fusobacterium canifelinum]</Hit_def>
+  <Hit_accession>WP_124795181</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>337.421</Hsp_bit-score>
+      <Hsp_score>864</Hsp_score>
+      <Hsp_evalue>6.36605e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>176</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|WP_335981927.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_335981927</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.59996e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|WP_088336997.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|ASC02594.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_088336997</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.59996e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>ref|WP_459839503.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9297833.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9311574.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9325108.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9332433.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9340339.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_459839503</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>336.265</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>1.928e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|WP_023036461.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|WXZ75524.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE28879.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE87877.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|XPH38747.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_023036461</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>2.56442e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIRNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGI+NGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|WP_336007322.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_336007322</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>2.79967e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGIAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGG+AGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|WP_005900126.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|ETZ28191.1| hypothetical protein HMPREF2085_01053 [Fusobacterium nucleatum 13_3C] &gt;gb|ALM93831.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|ALQ42153.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|ASG27812.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|EUB29432.1| colicin V production protein [Fusobacterium sp. OBRC1]</Hit_def>
+  <Hit_accession>WP_005900126</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.88</Hsp_bit-score>
+      <Hsp_score>860</Hsp_score>
+      <Hsp_evalue>3.09022e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|WP_005896766.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|EDK88581.1| hypothetical protein FNP_0779 [Fusobacterium polymorphum ATCC 10953] &gt;gb|UTI54139.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WRL68690.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYD55975.1| CvpA family protein [Fusobacterium polymorphum ATCC 10953] &gt;gb|WYK99164.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_005896766</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>335.109</Hsp_bit-score>
+      <Hsp_score>858</Hsp_score>
+      <Hsp_evalue>4.48733e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGIAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGG+AGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|WP_314386693.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9313607.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_314386693</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.339</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>1.06756e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSIKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYS KLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|WP_005891083.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|EAA23837.1| hypothetical protein [Fusobacterium vincentii ATCC 49256] &gt;gb|ETS95369.1| colicin V production protein [Fusobacterium sp. CM21] &gt;gb|ALF19630.1| CvpA family protein [Fusobacterium vincentii ChDC F8] &gt;gb|ATV05740.1| CvpA family protein [Fusobacterium vincentii] &gt;gb|EEO39826.1| hypothetical protein FSCG_00539 [Fusobacterium vincentii 4_1_13]</Hit_def>
+  <Hit_accession>WP_005891083</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>334.339</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>1.09124e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGLAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKIMGGVAGFLKALVVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIFVEIISVFG AVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNK+MGGVAGF+KAL+VSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|WP_335970598.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_335970598</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.954</Hsp_bit-score>
+      <Hsp_score>855</Hsp_score>
+      <Hsp_evalue>1.43561e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGLAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFG AVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|WP_098702081.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|PGH21944.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_098702081</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>1.8275e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIRNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAINIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGI+NGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAI+IFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|WP_005916794.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium hwasookii] &gt;gb|EJU07908.1| hypothetical protein B437_04685 [Fusobacterium hwasookii ChDC F128] &gt;gb|MGW1365690.1| CvpA family protein [Fusobacterium hwasookii] &gt;gb|QNE65378.1| CvpA family protein [Fusobacterium hwasookii]</Hit_def>
+  <Hit_accession>WP_005916794</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>1.93055e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPHVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVRKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTP VL FLKRSDASFENNYVITYIVTFITVYLVVSMILIFV+KAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|WP_088388022.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9305366.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9306686.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9309205.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9316191.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|OWP25026.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_088388022</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>1.97337e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSIKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYS KLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|WP_335942784.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYD18124.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_335942784</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>2.01715e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLTPSLEKYSQGSSAISIFYEIIPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKL PSLEKYSQGSSAISIFYEI+P+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|WP_070766350.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|OFO29867.1| CvpA family protein [Fusobacterium sp. HMSC064B11] &gt;gb|WRL70804.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WVU42383.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_070766350</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>333.569</Hsp_bit-score>
+      <Hsp_score>854</Hsp_score>
+      <Hsp_evalue>2.08464e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGLAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIIPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFG AVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEI+P+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>ref|WP_029494784.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium hwasookii] &gt;gb|ALQ35969.1| CvpA family protein [Fusobacterium hwasookii ChDC F206]</Hit_def>
+  <Hit_accession>WP_029494784</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>5.23905e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPYVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTP VL FLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>ref|WP_008799457.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|EEU32420.1| hypothetical protein HMPREF0946_00493 [Fusobacterium vincentii 3_1_36A2] &gt;gb|EMP17036.1| hypothetical protein H848_01612 [Fusobacterium nucleatum CC53]</Hit_def>
+  <Hit_accession>WP_008799457</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>5.23905e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGLAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKIMGGVAGFLKALVVSLVIILVYTYSTKLVPSLEKYSQGSSAISIFYEIVPSFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIFVEIISVFG AVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNK+MGGVAGF+KAL+VSLVIILVYTYSTKL PSLEKYSQGSSAISIFYEIVPSFE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>ref|WP_029493843.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium hwasookii] &gt;gb|ALQ40491.1| CvpA family protein [Fusobacterium hwasookii ChDC F174] &gt;gb|QYR55052.1| CvpA family protein [Fusobacterium hwasookii]</Hit_def>
+  <Hit_accession>WP_029493843</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>5.47407e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPHVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVRKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTP VL FLKRSDASFENNYVITYIVTFITVYLVVSMILIFV+KAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>ref|WP_098983172.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI05393.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE02218.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_098983172</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>332.413</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>7.36125e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPYVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGIAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTP VL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGG+AGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>ref|WP_032846783.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|EUB26022.1| colicin V production protein [Fusobacterium sp. CM22] &gt;gb|MFC2422929.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI03035.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI06696.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|PIM75000.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_032846783</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>331.643</Hsp_bit-score>
+      <Hsp_score>849</Hsp_score>
+      <Hsp_evalue>1.46931e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPYVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGIAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTP VL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGG+AGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>ref|WP_029492247.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium hwasookii] &gt;gb|ALQ37391.1| CvpA family protein [Fusobacterium hwasookii ChDC F300] &gt;gb|QNE67657.1| CvpA family protein [Fusobacterium hwasookii]</Hit_def>
+  <Hit_accession>WP_029492247</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.872</Hsp_bit-score>
+      <Hsp_score>847</Hsp_score>
+      <Hsp_evalue>2.59933e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>172</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFIEIISVFGFAVNLLITKIYTPYVLNFLKRSDTSFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIF+EIISVFGFAVNLLITKIYTP VL FLKRSD SFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|WP_098994827.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI08117.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI13776.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE24442.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE90249.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_098994827</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>330.102</Hsp_bit-score>
+      <Hsp_score>845</Hsp_score>
+      <Hsp_evalue>4.96546e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKAFIVSLVIILVYTYSSKLVPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KA IVSLVIILVYTYS+KL PSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>ref|WP_338953969.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium nucleatum] &gt;gb|WXZ98857.1| CvpA family protein [Fusobacterium nucleatum]</Hit_def>
+  <Hit_accession>WP_338953969</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>329.331</Hsp_bit-score>
+      <Hsp_score>843</Hsp_score>
+      <Hsp_evalue>9.9109e-113</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGVFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKAMGGIAGFIKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILG+FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGFIKALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>ref|WP_427170428.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium nucleatum] &gt;gb|XTB48694.1| CvpA family protein [Fusobacterium nucleatum]</Hit_def>
+  <Hit_accession>WP_427170428</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>317.39</Hsp_bit-score>
+      <Hsp_score>812</Hsp_score>
+      <Hsp_evalue>5.15736e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>162</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILVIFILGIFSGIRNGIFVEIISVFGFAVNLLITKIYTPVVLNFLKRSDASFENNYVITYIVTFITVYLAVSIILIFVKKAFKGLRKGFFNKMMGGIAGFIKASILSLVIILIYTYSIKLAPSLEKYSQGSTTIGIFYEIIPNFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILIL+IFILGIFSGI+NGIFVEIISVFGFAVNLLITKIYTPVVL FLKRSDASFENNYVITYIVTFITVYL VS+ILIFVKKAFKGL+KGFFNKMMGG+AGFIKA I+SLVIIL+YTYS KLAPSLEKYSQGS+ I IFYEI+P+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>ref|WP_150151057.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|MFZ7972227.1| CvpA family protein [Fusobacterium watanabei] &gt;gb|MFZ7973898.1| CvpA family protein [Fusobacterium watanabei] &gt;gb|MFZ7988034.1| CvpA family protein [Fusobacterium watanabei] &gt;gb|MFZ8016537.1| CvpA family protein [Fusobacterium watanabei] &gt;gb|MFZ8018408.1| CvpA family protein [Fusobacterium watanabei]</Hit_def>
+  <Hit_accession>WP_150151057</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.99</Hsp_bit-score>
+      <Hsp_score>785</Hsp_score>
+      <Hsp_evalue>8.28616e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGVFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKAMGGIAGFIKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILG+FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGFIKALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|WP_029758038.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|MCY7008402.1| CvpA family protein [Fusobacterium simiae] &gt;gb|MDC7956039.1| CvpA family protein [Fusobacterium simiae]</Hit_def>
+  <Hit_accession>WP_029758038</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.834</Hsp_bit-score>
+      <Hsp_score>782</Hsp_score>
+      <Hsp_evalue>2.10471e-103</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIRNGIFIEIITVFGFAINLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLIVSMILVFVKKAFRGLKKGFFNKMMGGIAGFVKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIIPTFESYIPDILVEDFNKNATRKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGI+NGIF+EII+VFGFA+NLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYL+VSMIL+FVKKAF+GLKKGFFNKMMGG+AGF+KALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEI+P+FE+YIPDILVEDFNKNAT+KIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|WP_320950841.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium sp.]</Hit_def>
+  <Hit_accession>WP_320950841</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>1.37282e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFVEIISVFGLAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKTMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIFVEIISVFG AVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>ref|WP_098998479.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|PHI15808.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYD31200.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE80944.1| CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE84491.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_098998479</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.4987e-102</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKAFIVSLVIILVYTYSSKLVPSLEKYSQGSSAISIFYEIVPTFEAYIPEILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIF+EIISVFGFAVNLLITKIYTPVVL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KA IVSLVIILVYTYS+KL PSLEKYSQGSSAISIFYEIVP+FEAYIP+ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|WP_420487263.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium watanabei] &gt;gb|MFZ8014318.1| CvpA family protein [Fusobacterium watanabei]</Hit_def>
+  <Hit_accession>WP_420487263</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>1.53194e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGVFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKAMGGIAGFIKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPGILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILG+FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGFIKALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIP ILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>ref|WP_070675048.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|OFQ56830.1| CvpA family protein [Fusobacterium sp. HMSC065F01] &gt;gb|WYL11803.1| CvpA family protein [Fusobacterium animalis]</Hit_def>
+  <Hit_accession>WP_070675048</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>2.34954e-102</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKIMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>ref|WP_005909252.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|AGM23426.1| hypothetical protein HMPREF0409_00756 [Fusobacterium animalis 4_8] &gt;gb|ALF17787.1| CvpA family protein [Fusobacterium animalis] &gt;gb|ALF21448.1| CvpA family protein [Fusobacterium animalis] &gt;gb|ASG31179.1| CvpA family protein [Fusobacterium animalis] &gt;gb|EEO41874.1| hypothetical protein FSDG_00433 [Fusobacterium animalis 7_1]</Hit_def>
+  <Hit_accession>WP_005909252</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.753</Hsp_bit-score>
+      <Hsp_score>774</Hsp_score>
+      <Hsp_evalue>3.194e-102</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKTMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>emb|CAN2325739.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium paranimalis]</Hit_def>
+  <Hit_accession>CAN2325739</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>8.11239e-102</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITIYLVVSMILVFVKKAFKGLKKGFFNKAMGGIAGFIKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFIT+YLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGFIKALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>ref|WP_339002495.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|WYE76185.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_339002495</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>9.99161e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFILGVFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKIMGGVAGFVKAFIVSLVIILVYTYSSKLVPSLEKYSQGSSAIGVFYEIIPNFETYVPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFILG+FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGGVAGF+KA IVSLVIILVYTYS+KL PSLEKYSQGSSAI +FYEI+P+FE Y+PDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|WP_339008069.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium animalis] &gt;gb|MEX6494116.1| CvpA family protein [Fusobacterium animalis] &gt;gb|WYE64636.1| CvpA family protein [Fusobacterium animalis] &gt;gb|WYE70809.1| CvpA family protein [Fusobacterium animalis]</Hit_def>
+  <Hit_accession>WP_339008069</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.19079e-101</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDATFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKTMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDA+FENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|WP_405350371.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium animalis] &gt;gb|WYL08055.1| CvpA family protein [Fusobacterium animalis]</Hit_def>
+  <Hit_accession>WP_405350371</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.46663e-101</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFIEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITIYLVVSMILVFVKKAFKGLKKGFFNKAMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIF+EIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFIT+YLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|WP_459952140.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium polymorphum] &gt;gb|MHB9344249.1| CvpA family protein [Fusobacterium polymorphum]</Hit_def>
+  <Hit_accession>WP_459952140</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.03281e-100</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILIIIIFILGIFSGIKNGIFIEIITVFGLAVNLLITKIYTPVVLNFLKRSDASFENNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKMMGGVAGFVKAFIVSLVIILVYTYSSKLVPSLEKYSQGSSAIGMFYEIIPSFETYVPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILI+IIFILGIFSGIKNGIF+EII+VFG AVNLLITKIYTPVVL FLKRSDASFENNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNKMMGGVAGF+KA IVSLVIILVYTYS+KL PSLEKYSQGSSAI +FYEI+PSFE Y+PDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|MBF1196967.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium periodonticum]</Hit_def>
+  <Hit_accession>MBF1196967</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.45626e-99</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>161</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>TGIRNGIFIEIISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKSLIVSLVIILIYTYSSKLAPSLEKYSQGSSAIGIFYEIIPNFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>+GI+NGIF+EIISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+K+LIVSLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|WP_005969257.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|ATV35532.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV61574.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|AVQ24694.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|EKA92599.1| hypothetical protein FPOG_00970 [Fusobacterium periodonticum D10] &gt;gb|KGE63133.1| hypothetical protein FSAG_000818 [Fusobacterium periodonticum 2_1_31]</Hit_def>
+  <Hit_accession>WP_005969257</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>9.05615e-99</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>SGIRNGIFIEVISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIEIFYEILPNFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>SGI+NGIF+E+ISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|WP_100026437.1|</Hit_id>
+  <Hit_def>MULTISPECIES: CvpA family protein [Fusobacterium] &gt;gb|ATV70373.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|MBF1206651.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|MBF1213800.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|MEZ7722741.1| CvpA family protein [Fusobacterium sp. 27098_8_59]</Hit_def>
+  <Hit_accession>WP_100026437</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>1.74845e-98</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>TGIRNGIFIEIISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIEIFYEILPNFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>+GI+NGIF+EIISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|WP_099986015.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV57895.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV63551.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV66069.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV67479.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|ATV71898.1| CvpA family protein [Fusobacterium pseudoperiodonticum]</Hit_def>
+  <Hit_accession>WP_099986015</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.06102e-98</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>TGIRNGIFIEIISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIDIFYEILPNFESYIPDVLVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>+GI+NGIF+EIISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPD+LVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|WP_099971936.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|MBF1194000.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|ATV58703.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|MBF1198168.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|MBF1202709.1| CvpA family protein [Fusobacterium periodonticum] &gt;gb|MBF1207361.1| CvpA family protein [Fusobacterium periodonticum]</Hit_def>
+  <Hit_accession>WP_099971936</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.20116e-98</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>TGIRNGIFIEIISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIEIFYEILPNFESYIPDVLVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>+GI+NGIF+EIISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPD+LVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>ref|WP_099959014.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|PIM80404.1| CvpA family protein [Fusobacterium pseudoperiodonticum] &gt;gb|WYA46703.1| CvpA family protein [Fusobacterium pseudoperiodonticum]</Hit_def>
+  <Hit_accession>WP_099959014</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>3.1956e-98</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>SGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>TGIRNGIFIEIISVFGFAINLLITKIYTPVVLRFLKRSDASFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIGIFYEILPNFESYIPDVLVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>+GI+NGIF+EIISVFGFA+NLLITKIYTPVVL+FLKRSDASF NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPD+LVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|WP_008820102.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium periodonticum] &gt;gb|EFG28519.1| CvpA family protein [Fusobacterium periodonticum 1_1_41FAA]</Hit_def>
+  <Hit_accession>WP_008820102</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>6.5891e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFIFGIFSGIRNGIFIEIISVFGFAINLLITKMYTPVVLKFLKRSDATFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKSLIVSLVIILIYTYSSKLAPSLEKYSQGSSAIGIFYEIIPNFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFI GIFSGI+NGIF+EIISVFGFA+NLLITK+YTPVVLKFLKRSDA+F NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+K+LIVSLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|WP_005975394.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium periodonticum] &gt;gb|EFE85675.1| CvpA family protein [Fusobacterium periodonticum ATCC 33693]</Hit_def>
+  <Hit_accession>WP_005975394</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>3.19521e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>174</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFIFGIFSGIRNGIFIEIISVFGFAINLLITKMYTPVVLKFLKRSDATFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIILIYTYSSKLAPSLEKYSQGSSAIGIFYEIIPNFESYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFI GIFSGI+NGIF+EIISVFGFA+NLLITK+YTPVVLKFLKRSDA+F NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVIIL+YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE+YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|WP_442567303.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium sp.] &gt;gb|MGP1429226.1| CvpA family protein [Fusobacterium sp.]</Hit_def>
+  <Hit_accession>WP_442567303</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>2.83156e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFIFGIFSGIRNGIFIEIISVFGFAVNLLITKMYTPVVLRFLKRSDATFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIIIIYTYSSKLAPSLEKYSQGSSAIGIFYEIIPNFENYIPDILVEDFNKNATKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFI GIFSGI+NGIF+EIISVFGFAVNLLITK+YTPVVL+FLKRSDA+F NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVII++YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE YIPDILVEDFNKNATKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|KMV75971.1|</Hit_id>
+  <Hit_def>hypothetical protein PSAG_04651 [Fusobacterium animalis D11]</Hit_def>
+  <Hit_accession>KMV75971</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>4.85024e-96</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>173</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEK</Hsp_qseq>
+      <Hsp_hseq>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYIITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKTMGGIAGFVKALIVSLVIILVYTYSIKLVPSLEKYSQGSSAISIFYEIVPTFETYIPDILVEDFNKNATKKLLKK</Hsp_hseq>
+      <Hsp_midline>FSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNY+ITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK MGG+AGF+KALIVSLVIILVYTYS KL PSLEKYSQGSSAISIFYEIVP+FE YIPDILVEDFNKNATKK+++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|WP_009424240.1|</Hit_id>
+  <Hit_def>CvpA family protein [Fusobacterium sp. oral taxon 370] &gt;gb|EHI77988.1| hypothetical protein HMPREF9093_01673 [Fusobacterium sp. oral taxon 370 str. F0437]</Hit_def>
+  <Hit_accession>WP_009424240</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>1.69087e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MYLDILILIIFILGIFSGIKNGIFVEIISVFGFAVNLLITKIYTPVVLKFLKRSDASFENNYVITYIVTFITVYLVVSMILIFVKKAFKGLKKGFFNKMMGGVAGFIKALIVSLVIILVYTYSTKLAPSLEKYSQGSSAISIFYEIVPSFEAYIPDILVEDFNKNATKKIIEKNINTML</Hsp_qseq>
+      <Hsp_hseq>MYLDILILIIFIFGIFSGIRNGIFIEIISVFGFAVNLLITKMYTPVVLRFLKRSDATFANNYVITYIVTFITVYLVVSMILVFVKKAFKGLKKGFFNKLMGGIAGFVKAFIASLVIIIIYTYSSKLAPSLEKYSQGSSAIGIFYEIIPNFENYIPDILVEDFNKNVTKKIIEKNINTML</Hsp_hseq>
+      <Hsp_midline>MYLDILILIIFI GIFSGI+NGIF+EIISVFGFAVNLLITK+YTPVVL+FLKRSDA+F NNYVITYIVTFITVYLVVSMIL+FVKKAFKGLKKGFFNK+MGG+AGF+KA I SLVII++YTYS+KLAPSLEKYSQGSSAI IFYEI+P+FE YIPDILVEDFNKN TKKIIEKNINTML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992410263</Statistics_db-num>
+      <Statistics_db-len>377285447757</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
