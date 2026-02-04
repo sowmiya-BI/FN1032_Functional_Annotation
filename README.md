@@ -13,6 +13,17 @@ Fusobacterium nucleatum using Biopython and BLAST.
 2. Perform BLASTp analysis against NCBI nr database
 3. Analyze homologous sequences
 4. Assign function based on sequence similarity
+   
+## Code Overview
+This Python script performs functional annotation of the hypothetical protein
+**FN1032 (CvpA family protein)** from *Fusobacterium nucleatum* using Biopython.
+
+The code works as follows:
+1. Reads the protein sequence from a FASTA file.
+2. Runs BLASTp against the NCBI nr database.
+3. Saves the BLAST output in XML format.
+4. Parses BLAST results to identify homologous proteins.
+5. Predicts protein function based on sequence similarity.
 
 ## Results
 BLAST analysis revealed strong similarity to CvpA family proteins from
