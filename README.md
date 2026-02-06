@@ -1,5 +1,5 @@
 # FN1032 Functional Annotation
-Functional annotation of hypothetical protein FN1032 using Biopython and BLAST
+Functional annotation of hypothetical protein FN1032 using Biopython and Bioinformatics tools
 
 ## Objective
 To perform functional annotation of the hypothetical protein FN1032 from
